@@ -11,6 +11,7 @@ body{
 
 header h1{
     display: inline;
+    font-size: 3em;
 }
 
 main{
@@ -18,9 +19,9 @@ main{
     margin: 30px auto;
 }
 
+h1, 
 #logo{
-    height: 60px;
-    line-height: 60px;
+    line-height: 70px;
     vertical-align: middle;
 }
 
@@ -47,9 +48,8 @@ main{
     font-size: 0.9em;
 }
 
-.m-left80{
-    margin-left: 80px;
-    padding: 10px 0;
+.p-left80{
+    padding: 10px 80px;
 }
 
 /* UTILITY */
@@ -73,5 +73,14 @@ main{
     color: #c9cfd3;
 }
 
+ul > li:before{
+    content: '\25BC';
+    font-size: 0.6em;   
+}
+
+ul > li{
+    font-size: 1.5em;
+    color: #444851;
+}
 
 
