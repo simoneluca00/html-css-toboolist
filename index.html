@@ -15,15 +15,17 @@
 
 <body>
 
+    <!-- Intestazione e logo -->
     <header class="bg-white">
         <img id="logo" src="./asset/img/logo copia.png" alt="logo di Toboolist">
         <h1>Toboolist</h1>  
     </header>
 
+    <!-- Buttons -->
     <main class="bg-white">
 
-        <div id="container-add">
-            <div class="button-add p-left80">
+        <div id="container-buttons">
+            <div class="buttons-add p-left80">
 
                 <div class="add-task bg-blue f-white b-radius7">
                     <strong> Add Task </strong> 
@@ -36,19 +38,82 @@
             </div>
         </div>
 
-        <div class="container-list">
+        <!-- Lista -->
+        <div class="p-left80">
             <ul type="none">
 
-                <li>
-                    <strong>New Task</strong> 
+                <li class="tasks">
+                    <strong>New Task</strong>
+                    
+                    <ul type="none">
+                        <li class="check">
+                            Quarterly Newsletter
+                            <span class="category bg-blue f-white">Editorial</span>
+                        </li>
+                    </ul> 
                 </li>
 
-                <li> 
+                <li class="tasks"> 
                     <strong>Today </strong> 
+
+                    <ul type="none">
+                        <li class="check">
+                            Recruiting blog sport
+                            <span class="category bg-blue f-white">Editorial</span>
+                        </li>
+                    </ul> 
+                    
+                    <ul type="none">
+                        <li class="cross">
+                            Interview John H.
+                            <span class="category bg-green f-white">Recruiting</span>
+                        </li>
+                    </ul>
+                    
+                    <ul type="none">
+                        <li class="check">
+                            Mobile app launch
+                            <span class="category bg-violet f-white">Q1 Goals</span>
+                        </li>
+                    </ul> 
+
+                    <ul type="none">
+                        <li class="check">
+                            Summit update to mobile storefronts
+                            <span class="category bg-orange f-white">Mobile</span>
+                        </li>
+                    </ul> 
                 </li>
 
-                <li>
-                    <strong>Upcoming </strong>    
+                <li class="tasks">
+                    <strong>Upcoming </strong> 
+                    
+                    <ul type="none">
+                        <li class="cross">
+                            Schedule meeting with Alex
+                        </li>
+                    </ul>
+
+                    <ul type="none">
+                        <li class="check">
+                            Homepage refresh
+                            <span class="category bg-fuxia f-white">Website</span>
+                        </li>
+                    </ul> 
+
+                    <ul type="none">
+                        <li class="check">
+                            Onboard new Sales team members
+                            <span class="category bg-lightgreen f-white">Sales</span>
+                        </li>
+                    </ul> 
+
+                    <ul type="none">
+                        <li class="check">
+                            Review editorial calendar
+                            <span class="category bg-blue f-white">Editorial</span>
+                        </li>
+                    </ul> 
                 </li>
 
             </ul>
