@@ -17,8 +17,11 @@
 
     <!-- Intestazione e logo -->
     <header class="bg-white">
-        <img id="logo" src="./asset/img/logo copia.png" alt="logo di Toboolist">
-        <h1>Toboolist</h1>  
+        <div>
+            <img id="logo" src="./asset/img/logo copia.png" alt="logo di Toboolist">
+            <h1>Toboolist</h1>  
+        </div>
+            
     </header>
 
     <!-- Buttons -->
@@ -27,18 +30,19 @@
         <div id="container-buttons">
             <div class="buttons-add p-left80">
 
-                <div class="add-task bg-blue f-white b-radius7">
+                <span class="add-task bg-blue f-white b-radius7">
                     <strong> Add Task </strong> 
-                </div>
+                </span>
 
-                <div class="add-section bg-white b-radius7">
+                <span class="add-section bg-white b-radius7">
                     <strong>Add Section</strong>
-                </div>
+                </span>
 
             </div>
         </div>
 
         <!-- Lista -->
+        <!-- Invece di "type=none" possiamo selezionare "li" e nel css mettere "list-style:none" -->
         <div class="p-left80">
             <ul type="none">
 
