@@ -10,7 +10,7 @@ body{
 }
 
 header h1{
-    display: inline;
+    display: inline-block;
     font-size: 3em;
 }
 
@@ -78,7 +78,8 @@ main{
 /* UTILITY */
 
 #container-buttons{
-    border-bottom: 2px solid #f6f8f9; 
+    border-bottom: 2px solid #f6f8f9;
+    padding: 10px; 
 }
 
 .add-section {
@@ -88,6 +89,7 @@ main{
 
 ul > li {
     margin-top: 20px;
+    list-style: none;
 }
 
 .tasks::before{
@@ -126,11 +128,12 @@ ul > li {
 .cross::before,
 .check::before {
     display: inline-block;
-    font-size: 25px;
+    margin-left: 20px;
+    font-size: 16px;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
     text-align: center;
 }
 
